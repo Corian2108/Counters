@@ -1,0 +1,27 @@
+<div
+  style="
+    display: flex;
+    font-family: 'Open Sans';
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    height: 609px;
+  "
+>
+  <div
+    style="
+      margin: auto;
+      font-size: large;
+      display: block;
+      text-align: center;
+      padding-top: 50px;
+    "
+  >
+    <span style="display: block; font-size: 32px"> {{ cantidad }} </span>
+    <span style="display: block"> {{ parametro }} </span>
+    <br>
+    <br>
+    <br>
+    <span #contadorSpan></span>
+  </div>
+  <button (click)="contar()" >Contar</button>
+</div>
